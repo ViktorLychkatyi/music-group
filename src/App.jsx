@@ -13,8 +13,8 @@ function App() {
   return (
     <>
         <div id={"header"}>
-            <div className={"picture_title"}><img src="../public/img/ab6761610000e5ebab47d8dae2b24f5afe7f9d38.jpeg" alt=""/></div>
-            <div className={"logo_title"}><img src="../public/img/Imagine_Dragons_2021_logo%201.svg" alt=""/></div>
+            <div className={"picture_title"}><img src="./img/ab6761610000e5ebab47d8dae2b24f5afe7f9d38.jpeg" alt=""/></div>
+            <div className={"logo_title"}><img src="./img/Imagine_Dragons_2021_logo%201.svg" alt=""/></div>
         </div>
 
         <div id={"biography"}>
