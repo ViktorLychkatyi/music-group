@@ -1,0 +1,31 @@
+.card_gallery_image img{
+    border-radius: 0.5em;
+}
+
+.gallery_review {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;]
+    width: 20%;
+    gap: 80px;
+    margin: 20px;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.card_gallery_image {
+    width: 585px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.card_gallery_image img {
+    width: 100%;
+    border-radius: 0.5em;
+}

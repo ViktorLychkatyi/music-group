@@ -1,0 +1,14 @@
+.button_more {
+    background: #F03030;
+    border-radius: 0.1em;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 700;
+    border-style: none !important;
+    padding: 10px;
+}
+
+.button_more:hover {
+    background: #f65e5e;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.card_artist {
+    width: 380px;
+    height: 580px;
+    border: 1px solid #9c9c9c;
+    border-radius: 0.5em;
+}
+
+.card_artist_image  {
+    width: 378px;
+    height: 380px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 0.5em 0.5em 0em 0em;
+    background-size: cover;
+}
+
+.card_artist_image img {
+    width: 100%;
+}
+
+.title_artist {
+    margin-bottom: 10px;
+}
+
+.card_artist_info h2{
+    margin-bottom: 10px;
+}
+
