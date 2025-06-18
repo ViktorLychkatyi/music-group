@@ -1,13 +1,14 @@
 import React from 'react';
 import "./ButtonMore.css";
 
-function ButtonMore() {
+
+function ButtonMore(props) {
     const handleClick = () => {
-        alert('Не реализовано :)');
+
     };
 
     return (
-        <button onClick={handleClick} className={"button_more"}>ЕЩЕ</button>
+        <button onClick={handleClick} className={"button_more"} style={{ backgroundColor: props.color}}>ЕЩЕ</button>
     )
 }
 

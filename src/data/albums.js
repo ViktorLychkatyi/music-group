@@ -23,4 +23,16 @@ export const albums = [
         tracks: "Основные треки: Believer, Thunder, Whatever It Takes",
         image: "./img/album_4.jpg"
     },
+    {
+        name: "Smoke + Mirrors (2014)",
+        description: "Экспериментальный и атмосферный релиз, в котором группа отходит от привычного поп-рока в сторону психоделии и инди-звучания. Альбом полон личных переживаний и неожиданных музыкальных решений.",
+        tracks: "Основные треки: Shots, Gold, I Bet My Life",
+        image: "./img/album_5.jpg"
+    },
+    {
+        name: "Night Visions (2012)",
+        description: "Дебютный альбом, принесший Imagine Dragons мировую славу. Смесь альтернативного рока, электронной музыки и мощной энергетики. Здесь зародился их фирменный стиль и прозвучали первые суперхиты.",
+        tracks: "Основные треки: Radioactive, It's Time, Demons",
+        image: "./img/album_6.jpg"
+    },
 ]

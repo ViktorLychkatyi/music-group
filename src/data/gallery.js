@@ -22,5 +22,17 @@ export const gallery = [
     },
     {
         image: "./img/gallery_8.jpg",
+    },
+    {
+        image: "./img/gallery_9.jpg",
+    },
+    {
+        image: "./img/gallery_10.jpg",
+    },
+    {
+        image: "./img/gallery_11.jpg",
+    },
+    {
+        image: "./img/gallery_12.jpg",
     }
 ]

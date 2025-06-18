@@ -69,8 +69,7 @@ function Player() {
       isDragging.current = false;
 
       const rect = progressRef.current.getBoundingClientRect();
-      const newTime =
-        ((event.clientX - rect.left) / rect.width) * audioRef.current.duration;
+      const newTime = ((event.clientX - rect.left) / rect.width) * audioRef.current.duration;
       audioRef.current.currentTime = Math.max(0, Math.min(newTime, audioRef.current.duration));
     }
   };
