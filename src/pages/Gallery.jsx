@@ -1,9 +1,13 @@
 import {gallery} from "../data/gallery.js";
 import CardGallery from "../components/UI/Cards/CardGallery/CardGallery.jsx";
 import ButtonMore from "../components/UI/Buttons/ButtonMore/ButtonMore.jsx";
-import React from "react";
+import React, { useEffect } from "react";
 
 function Gallery() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div id={"album"}>
