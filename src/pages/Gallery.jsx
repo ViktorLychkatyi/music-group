@@ -1,0 +1,21 @@
+import {gallery} from "../data/gallery.js";
+import CardGallery from "../components/UI/Cards/CardGallery/CardGallery.jsx";
+import ButtonMore from "../components/UI/Buttons/ButtonMore/ButtonMore.jsx";
+import React from "react";
+
+function Gallery() {
+    return (
+        <>
+            <div id={"album"}>
+                <h1 className={"title_info"}>ГАЛЕРЕЯ</h1>
+                <div className={"gallery_review"}>
+                    {gallery.map((picture, i) => (
+                        <CardGallery key={i} picture={picture} />
+                    ))}
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Gallery;
