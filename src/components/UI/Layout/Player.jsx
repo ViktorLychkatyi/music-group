@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef, use} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import { tracks } from "../../../data/tracks.js";
 
 function Player() {
@@ -85,23 +85,25 @@ function Player() {
   };
 
   return (
-      <div className="player" onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
+      <div id={"listen"}>
+        <h1 className={"title_info"}>ПОСЛУШАТЬ МОЖНО ЗДЕСЬ</h1>
+        <div className="player" onMouseMove={handleMouseMove} onMouseUp={handleMouseUp}>
+          <h2>{tracks[trackIndex].name}</h2>
+          <div className="player_buttons">
+            <button onClick={handlePrev}>
+              <img src="./img/iconoir_skip-prev-solid.svg" alt="Previous" />
+            </button>
+            <button onClick={handlePlay}>
+              <img src={isPlaying? "./img/mingcute_pause-line.svg": "./img/line-md_play-filled.svg"} alt={isPlaying? "Pause": "Play"}/>
+            </button>
+            <button onClick={handleNext}>
+              <img src="./img/iconoir_skip-next-solid.svg" alt="Next" />
+            </button>
+          </div>
 
-        <h2>{tracks[trackIndex].name}</h2>
-        <div className="player_buttons">
-          <button onClick={handlePrev}>
-            <img src="./img/iconoir_skip-prev-solid.svg" alt="Previous" />
-          </button>
-          <button onClick={handlePlay}>
-            <img src={isPlaying? "./img/mingcute_pause-line.svg": "./img/line-md_play-filled.svg"} alt={isPlaying? "Pause": "Play"}/>
-          </button>
-          <button onClick={handleNext}>
-            <img src="./img/iconoir_skip-next-solid.svg" alt="Next" />
-          </button>
-        </div>
-
-        <div className="player_progress" ref={progressRef}>
-          <div className="circle" style={{ left: `${trackProgress}%` }} onMouseDown={handleMouseDown}></div>
+          <div className="player_progress" ref={progressRef}>
+            <div className="circle" style={{ left: `${trackProgress}%` }} onMouseDown={handleMouseDown}></div>
+          </div>
         </div>
       </div>
   );

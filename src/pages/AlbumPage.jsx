@@ -1,6 +1,5 @@
 import {albums} from "../data/albums.js";
 import CardAlbum from "../components/UI/Cards/CardAlbum/CardAlbum.jsx";
-import ButtonMore from "../components/UI/Buttons/ButtonMore/ButtonMore.jsx";
 import React, { useEffect } from "react";
 
 function AlbumPage() {

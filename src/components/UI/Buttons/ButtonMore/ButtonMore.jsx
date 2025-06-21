@@ -1,7 +1,6 @@
 import React from 'react';
 import "./ButtonMore.css";
 
-
 function ButtonMore(props) {
     const handleClick = () => {
 
