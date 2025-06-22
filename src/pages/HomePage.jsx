@@ -8,10 +8,6 @@ import Album from "../components/UI/Layout/Album.jsx";
 import Gallery from "../components/UI/Layout/Gallery.jsx";
 
 function HomePage() {
-    // useEffect(() => {
-    //     window.scrollTo(0, 0);
-    // }, []);
-
     return (
         <>
             <Header />
